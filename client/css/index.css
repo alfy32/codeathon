@@ -1,0 +1,103 @@
+body {
+  margin: 0px;
+  background-color: #00A1CB;
+}
+
+header {
+background-color: #113F8C;
+padding: 10px;
+text-align: center;
+font-size: xx-large;
+font-family: sans-serif;
+color: whitesmoke;
+}
+
+header h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.squares {
+  width: 65%;
+  float: left;
+}
+
+.square {
+width: 40%;
+float: left;
+padding: 2px;
+margin-left: 5%;
+margin-top: 5%;
+border-radius: 35px;
+overflow: hidden;;
+}
+
+.square h3 {
+text-align: center;
+margin: 0px;
+font-family: cursive;
+padding: 10px 0px;
+color: white;
+letter-spacing: 2px;
+}
+
+.square .image {
+height: 125px;
+margin: auto;
+margin-top: 5%;
+}
+
+.square img {
+height: 100%;
+margin: auto;
+display: inherit;
+}
+
+.square .favorite {
+  margin: 0px;
+padding: 5px;
+text-align: center;
+}
+
+.star {
+  width: 20px;
+float: left;
+}
+
+.rating {
+  height: 25px;
+width: 100px;
+margin-top: 5px;
+margin-bottom: 5px;
+margin: auto;
+}
+
+.eat {
+background-color: #d70060;
+}
+.eat h3 {
+  background-color: red;
+}
+
+.indoor-event {
+  background-color: #e54028;
+}
+
+.outdoor-event {
+  background-color: #e54028;
+}
+
+.events h3 {
+text-align: center;
+font-family: fantasy;
+font-size: xx-large;
+}
+
+.stay {
+  background-color: #f18d05;
+}
+
+.events {
+  margin-left: 65%;
+  padding: 30px;
+}

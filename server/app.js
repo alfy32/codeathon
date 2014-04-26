@@ -30,7 +30,7 @@ app.use(express.methodOverride());
 app.use(express.cookieParser('blahblahblah'));
 app.use(express.session());
 app.use(app.router);
-app.use(express.static(path.join(__dirname, './client')));
+app.use(express.static('./client'));
 // app.use(authenticate.user);
 // app.use(express.static(path.join(__dirname, '../client/private')));
 
