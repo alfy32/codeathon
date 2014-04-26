@@ -111,6 +111,7 @@ width: 100%;
 .events {
   margin-left: 65%;
   padding: 30px;
+  overflow: scroll;
 }
 
 .event {

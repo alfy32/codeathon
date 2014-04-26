@@ -21,6 +21,7 @@ $(document).ready(function () {
     $('.events').append($('<div>').css('clear', 'both'));
   });
 
+  $('.events').css('height', ''+ (screen.height - 280) + 'px')
 });
 
 function addEvent() {
