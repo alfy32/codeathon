@@ -30,9 +30,9 @@ app.use(express.methodOverride());
 app.use(express.cookieParser('blahblahblah'));
 app.use(express.session());
 app.use(app.router);
-app.use(express.static(path.join(__dirname, '../client/public')));
-app.use(authenticate.user);
-app.use(express.static(path.join(__dirname, '../client/private')));
+app.use(express.static(path.join(__dirname, './client')));
+// app.use(authenticate.user);
+// app.use(express.static(path.join(__dirname, '../client/private')));
 
 // fs.readdirSync(__dirname + '/routes').forEach(
 //   function (file) {
@@ -43,6 +43,8 @@ app.use(express.static(path.join(__dirname, '../client/private')));
 
 require('./routes/login')(app,db);
 require('./routes/user')(app,db);
+require('./routes/event')(app,db);
+require('./routes/category')(app,db);
 
 
 
