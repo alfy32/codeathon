@@ -101,3 +101,20 @@ font-size: xx-large;
   margin-left: 65%;
   padding: 30px;
 }
+
+.event {
+  border-radius: 15px;
+background-color: orange;
+padding: 1px 5px;
+margin: 10px;
+}
+
+.event .date {
+  margin: 0px;
+padding: 2px;
+}
+
+.event .desc {
+  margin: 0px;
+padding: 2px;
+}

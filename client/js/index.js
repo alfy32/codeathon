@@ -11,9 +11,8 @@ $(document).ready(function () {
       var div = $('<div>');
 
       div.attr('class', 'event');
-      div.append($('<p>').text(ev.eventid));
-      div.append($('<p>').text(ev.date));
-      div.append($('<p>').text(ev.description));
+      div.append($('<p>').attr('class', 'date').text(ev.date));
+      div.append($('<p>').attr('class', 'desc').text(ev.description));
 
       $('.events').append(div);
     }
